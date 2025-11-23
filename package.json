@@ -1,0 +1,18 @@
+{
+  "name": "ttcs-dulich-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:backend": "npm --prefix TTCS-DuLich-main start",
+    "start:frontend": "npm --prefix TTCS-DuLich-main/frontend start",
+    "start": "npm --prefix TTCS-DuLich-main start",
+    "dev:all": "npm --prefix TTCS-DuLich-main run dev:all",
+    "install:all": "npm --prefix TTCS-DuLich-main run install:all",
+    "avatars:seed": "node TTCS-DuLich-main/scripts/set-default-avatars.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
